@@ -17,7 +17,28 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
+#=============================================================================================================
+col1, col2, col3 = st.columns([2, 1, 6])
 
+with col2:
+    st.image("adidas.png", width=80)
+
+with col3:
+    st.markdown(
+        """
+        <h1 style="
+            text-align: center;
+            font-size: 42px;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-left: -50px;
+        ">
+            Adidas Sales Dashboard
+        </h1>
+        """,
+        unsafe_allow_html=True
+    )
+#=============================================================================================================
 
 # ============================================================
 # CUSTOM CSS
