@@ -1,0 +1,10 @@
+treamlit>=1.32
+pandas
+numpy
+matplotlib
+plotly
+openpyxl
+streamlit-card
+streamlit-extras
+streamlit-option-menu
+altair>=5
