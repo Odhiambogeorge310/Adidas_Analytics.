@@ -376,7 +376,7 @@ with col2:
     monthly_sales = (
     filtered_df
     .set_index("InvoiceDate")
-    .resample("M")["TotalSales"]
+    .resample("ME")["TotalSales"]
     .sum()
     .reset_index()
 )
