@@ -363,7 +363,7 @@ with col1:
 
     st.plotly_chart(
         fig_region,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -397,7 +397,7 @@ with col2:
 
     st.plotly_chart(
         fig_trend,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -436,7 +436,7 @@ with col1:
 
     st.plotly_chart(
         fig_product,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -471,7 +471,7 @@ with col2:
 
     st.plotly_chart(
         fig_retailer,
-        use_container_width=True
+        width="stretch"
     )
 
 st.divider()
@@ -503,7 +503,7 @@ with col1:
 
     st.plotly_chart(
         fig_method,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -540,7 +540,7 @@ with col2:
 
     st.plotly_chart(
         fig_state,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -554,6 +554,6 @@ st.subheader("📋 Filtered Sales Data")
 
 st.dataframe(
     filtered_df,
-    use_container_width=True,
+    width="stretch",
     height=400
 )
