@@ -1,0 +1,97 @@
+ADIDAS SALES DASHBOARD
+Summary Report
+Based on a review of the Adidas Business Analytics Dashboard (adidasanalytics.streamlit.app)
+1. Overview
+The dashboard tracks Adidas retail sales performance across six U.S. retailers (Amazon, Foot Locker, Kohl's, Sports Direct, Walmart, and West Gear), covering five regions, multiple product categories, and three sales channels, over a period spanning January 2020 to January 2022.
+2. Key Performance Indicators
+Metric	Value
+Total Sales	$899,684,625
+Operating Profit	$331,968,561
+Units Sold	2,478,861
+Average Operating Margin	42.30%
+Average Price per Unit	$45.22
+Number of Retailers	6
+
+Insight: At an aggregate level, the business converts roughly 37 cents of every sales dollar into operating profit, which is a strong margin profile for apparel/footwear retail.
+3. Regional Performance
+Total sales by region (approximate):
+Region	Total Sales
+West	$270M
+Northeast	$190M
+Southeast	$160M
+South	$140M
+Midwest	$140M
+
+Insight: The West region is the clear leader, generating nearly 30% of total sales — almost double that of the South or Midwest. Northeast is a solid second performer. This suggests sales/marketing efforts and retail partnerships are more heavily concentrated (or more effective) on the West Coast.
+
+
+4. Sales Trend Over Time
+The Monthly Sales Trend chart (Jan 2020 – Jan 2022) shows:
+•	Relatively flat, low performance (~$10M–$30M/month) throughout most of 2020.
+•	A sharp jump starting around January 2021, where monthly sales roughly doubled to the $50M–$60M range.
+•	Continued volatility through 2021–2022, with monthly sales oscillating between ~$40M and ~$80M, and a notable peak around late 2021.
+
+Insight: The step-change in early 2021 suggests either a major business event (new retail partnership, product launch, or post-pandemic demand recovery) rather than gradual organic growth. The ongoing volatility indicates seasonality or promotional-driven spikes rather than steady month-over-month growth.
+5. Product Category Performance
+Based on the “Sales by Product” chart, the six categories tracked are (ranked highest to lowest sales, approximate):
+•	Men's Street Footwear (top performer)
+•	Women's Apparel
+•	Men's Athletic Footwear
+•	Women's Athletic Footwear
+•	Women's Street Footwear
+•	Men's Apparel (lowest of the six)
+
+Insight: Footwear (both men's and women's, athletic and street) collectively outperforms apparel, and men's street footwear stands out as the single strongest category — useful signal for inventory and marketing prioritization.
+6. Retailer Profitability
+Operating Profit by Retailer (highest to lowest, approximate):
+Rank	Retailer	Approx. Operating Profit
+1	West Gear	~$80M (highest)
+2	Foot Locker	~$70M
+3	Sports Direct	~$65M
+4	Kohl's	~$30M
+5	Amazon	~$25M
+6	Walmart	~$20M (lowest)
+
+Insight: There's a clear tier split — West Gear, Foot Locker, and Sports Direct each generate roughly 2–3x the operating profit of Kohl's, Amazon, and Walmart. This aligns with the regional data (West Gear likely drives much of the West region's outperformance) and suggests specialty/sporting-goods retailers are more profitable channels for Adidas than mass-market retailers.
+
+
+7. Sales Channel Mix
+Channel	Share of Sales
+In-store	39.6%
+Outlet	32.9%
+Online	27.5%
+
+Insight: Physical retail (in-store + outlet combined) still accounts for over 70% of sales, with online at just under 28%. There may be room to grow the online channel, especially if it carries a more attractive margin profile.
+
+8. Top States by Sales
+Ranked from highest to lowest total sales, the top 10 states are:
+•	New York (highest, ~$60M+)
+•	California
+•	Florida
+•	Texas
+•	South Carolina
+•	Washington
+•	North Carolina
+•	Louisiana
+•	Hawaii
+•	Virginia
+
+
+
+
+
+
+
+Insight: Sales are heavily weighted toward large coastal population centers (NY, CA, FL, TX), which is expected, but the presence of South Carolina and Hawaii in the top 10 is notable and may warrant investigation into what's driving above-average performance in those smaller markets.
+9. Underlying Data
+The dashboard includes a filterable, row-level “Filtered Sales Data” table with fields: Retailer, Retailer ID, Invoice Date, Region, State, City, Product, Price per Unit, Units Sold, Total Sales, Operating Profit, Operating Margin, and Sales Method. This granularity supports drill-down analysis beyond the summary charts (e.g., by specific retailer, date, or product).
+10. Summary Takeaways
+•	Strong overall profitability (42.3% average margin) across a diversified retail footprint.
+•	West region and West Gear retailer are the standout performers, both regionally and by profit contribution — a potential model to replicate elsewhere.
+•	Early 2021 marked an inflection point in sales growth that merits root-cause investigation (e.g., new distribution deal, demand rebound, pricing changes).
+•	Footwear outsells apparel, with men's street footwear as the top single category.
+•	In-store and outlet channels dominate, suggesting an opportunity to grow the online channel if it can be scaled profitably.
+•	Sales are concentrated in large states, but a few smaller states (South Carolina, Hawaii) show disproportionately strong performance worth a closer look.
+Note: Figures for regional, product, retailer, and state charts are approximate, read from chart visuals rather than exact data labels. For precise figures, refer to the “Filtered Sales Data” table or export the underlying dataset from the dashboard.
+
+Compiled by George Odhiambo.
