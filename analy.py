@@ -41,7 +41,7 @@ with col3:
 #=============================================================================================================
     if img_b64:
     st.markdown(f"<div style='display:flex;align-items:center;gap:12px'><img src=\"data:image/webp;base64,{img_b64}\" width=96 style='border-radius:6px;'><div class='big-title'>Adidas Stock Analysis Dashboard</div></div>", unsafe_allow_html=True)
-else:
+    else:
     st.markdown("<div class='big-title'>Adidas Stock Analysis Dashboard</div>", unsafe_allow_html=True)
 # ============================================================
 # CUSTOM CSS
