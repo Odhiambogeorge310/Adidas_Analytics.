@@ -33,7 +33,7 @@ with col3:
             margin-top: 15px;
             margin-left: -50px;
         ">
-            Adidas Sales Dashboard
+            Adidas_Business_Analytics_Dashboard
         </h1>
         """,
         unsafe_allow_html=True
