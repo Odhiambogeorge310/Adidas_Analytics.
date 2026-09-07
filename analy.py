@@ -84,10 +84,10 @@ st.markdown("""
 # DASHBOARD TITLE
 # ============================================================
 
-st.markdown(
-    '<div class="main-title">🏅Adidas_Business_Analytics_Dashboard</div>',
-    unsafe_allow_html=True
-)
+#st.markdown(
+    #'<div class="main-title">🏅Adidas_Business_Analytics_Dashboard</div>',
+    #unsafe_allow_html=True
+#)
 
 
 # ============================================================
